@@ -1,2 +1,2 @@
-# javascript_adavanced
+# javascript_advanced
 Javascript Advanced
