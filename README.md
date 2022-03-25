@@ -16,3 +16,9 @@ Solution of the TASK: The Factory as mechanism to enforce encapsulation
 # Theme: OOP - Inheritance in JavaScript
 ## prototypalInheritance folder
 Solution of the task "Developer_Manager_Person - Task Description" - Overwrite the greet() method for Developer and Manager objects
+
+# Theme: Other ES6 Features
+## newES6syntax folder
+Solution of the Task 1: "Developer_Manager_Person - Task Description" - Refactoring code using the Class Syntax
+Solution of the Task 2: Sort array of strings
+Solution of the Task 3: Sort array of objects by key
