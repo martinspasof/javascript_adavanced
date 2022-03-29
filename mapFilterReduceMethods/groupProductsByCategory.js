@@ -46,7 +46,7 @@ const products = [
 
 /* -------------------------- Solution with forLoop ------------------------- */
 function groupProductsByCategory_ForLoop(products) {
-	let groupedProducts = [];
+	let groupedProducts = {};
 
 	for (let i = 0; i < products.length; i++) {
 		const product = products[i];
