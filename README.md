@@ -35,3 +35,20 @@ Solution of the Task3: calcProductsPrices
 Solution of the Task4: mapArrayOfObjects
 Solution of the Task5: analyse groupProductsByCategory 
 - group products by category
+
+# Theme: Regular Expressions in JavaScript
+## RegEx folder
+
+- Solution of the Task1 (printAllWords.js):
+```
+
+Description:
+From a given string find and print all words. For us, a word must follow next specification:
+    1. Word is a string with at least 3 <word symbol> in it.
+    2. <word symbol> can be any of: Latin letters, dash, underscore and numbers.
+    3. A Word must start with a Latin letter.
+```
+- Exercises: exercices.js
+```
+Python Regular Expression - Exercises, Practice, Solution - note that the solutions are in Python Language, but you should be able to write them in JS.
+```
