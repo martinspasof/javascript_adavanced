@@ -14,14 +14,14 @@
 const testStr = `this is not meaningful.R2-D2 is a robot, first_second,1st of July`;
 
 // YOUR CODE HERE
-function text_match(string, reg){
-	string.forEach(str=>{
+function text_match(strings, reg){
+	strings.forEach(str=>{
 		var res = str.match(reg);
 		res && console.log(`${str}`)
 	  });
 }
 
-let reg = /^[A-Za-z]+[\w-]{2}/g;
+let reg = /^[A-Za-z]+[\w-]{2,}/g;
 text_match(testStr.split(/[\s,.]+/), reg);
 
 // EXPECTED OUTPUT:
