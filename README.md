@@ -52,3 +52,26 @@ From a given string find and print all words. For us, a word must follow next sp
 ```
 Python Regular Expression - Exercises, Practice, Solution - note that the solutions are in Python Language, but you should be able to write them in JS.
 ```
+
+# Theme: CreationalPatterns
+## CreationalPatterns folder
+- Solution for Exercise : caching the singular instance in Factory
+(cachingTheSingularInstance.js)
+```
+Description:
+Implement a Singleton carMaker object Factory, following the "caching the singular instance" approach.
+```
+
+- Solution for Instance in a Closure
+(rewriteTheConstructor.js)
+```
+Description:
+Instance in a Closure: rewrite the Constructor
+```
+
+- Solution for Exercise : rewrite the Factory
+(rewriteTheFactory.js)
+```
+Description:
+Implement a Singleton carMaker object Factory, following the "rewrite the Constructor" approach.
+```
