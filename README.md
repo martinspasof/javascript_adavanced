@@ -75,3 +75,15 @@ Instance in a Closure: rewrite the Constructor
 Description:
 Implement a Singleton carMaker object Factory, following the "rewrite the Constructor" approach.
 ```
+
+# Theme: AJAX-Asynchronous JavaScript And XML
+## Songs Ajax/songs_lyrics task folder
+
+- Solution for Exercise : Songs Lyrics
+```
+Description:
+Create a similar page, with your favorite artists and songs.
+Use a .txt file for each song lyrics and make AJAX request to that file, on each image click:
+- by XMLHttpRequest object
+----- by Fetch APIs
+```
