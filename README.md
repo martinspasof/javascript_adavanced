@@ -85,5 +85,5 @@ Description:
 Create a similar page, with your favorite artists and songs.
 Use a .txt file for each song lyrics and make AJAX request to that file, on each image click:
 - by XMLHttpRequest object
------ by Fetch APIs
+- by Fetch APIs
 ```
