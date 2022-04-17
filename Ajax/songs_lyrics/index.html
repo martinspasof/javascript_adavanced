@@ -17,25 +17,38 @@
 			margin: auto;
 		}
 
-		.head { width:100%;}
+		.head {
+			width:100%;
+			border: 5px solid red;
+			background-color: #f99;
+		}
 
-        .image {float:left; padding:10px;}
+        .image {
+			width: 30%;
 
+			float:left;
+			padding:10px;
+		}
+		.clearfix::after{
+			content:'';
+			display: block;
+			clear: both;
+		}
 	</style>
 </head>
-<body>	
-	
-	<div class="head">
+<body>
+
+	<div class="head clearfix">
 		<div class="image">
-			<img class="getDataBtn" src="./images/metallica/nothing_else_matters.jpg" alt="200/300">
+			<img class="getDataBtn" src="./images/metallica/nothing_else_matters.jpg" alt="200/300" data-img-id="getDataBtn1">
 		</div>
 		<div class="image">
-			<img class="getDataBtn" src="./images/nightwish/phantom_of_opera.jpg" alt="200/300">
+			<img class="getDataBtn" src="./images/nightwish/phantom_of_opera.jpg" alt="200/300" data-img-id="getDataBtn2">
 		</div>
 		<div class="image">
-			<img class="getDataBtn" src="./images/deep_purple/child_in_time.jpg" alt="200/300">
+			<img class="getDataBtn" src="./images/deep_purple/child_in_time.jpg" alt="200/300" data-img-id="getDataBtn3">
 		</div>
-	 </div>	
+	 </div>
 	<div class="output"></div>
 
 	<script src="./main.js"></script>
