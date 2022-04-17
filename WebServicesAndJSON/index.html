@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>index </title>
+	<style>
+		.getDataBtn {
+			cursor: pointer;
+		}
+		.output{
+			width: 20em;
+			height: 7em;
+			padding-top: 1.5em;
+			color: green;
+			border-radius: 5%;
+			margin: auto;
+            font-size: 20px;
+		}
+
+		.head {
+			width:80%;
+            
+		}
+
+        .getDataBtn {
+            border: 1px solid;
+            padding: 10px;
+            height: 95px;
+            margin-left: 22%;
+            font-size: 71px;
+            background-color: gainsboro;
+            box-shadow: 5px 10px #888888;
+		}
+
+		.clearfix::after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+
+	<div class="head clearfix">
+		<div class="image">
+			<div class="getDataBtn" data-img-id="getDataBtn1">Show me a joke</div>
+		</div>
+	</div>
+	<div class="output"></div>
+
+	<script src="./main.js"></script>
+</body>
+</html>

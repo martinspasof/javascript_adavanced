@@ -87,3 +87,12 @@ Use a .txt file for each song lyrics and make AJAX request to that file, on each
 - by XMLHttpRequest object
 - by Fetch APIs
 ```
+# Theme: WebServices and JSON
+## WebServicesAndJSON stask folder
+
+- Solution of the task "Simple Jokes App"
+```
+Description:
+Create a page which shows random jokes on each button click, as shown in gif bellow.
+Use the http://api.icndb.com/jokes/random URL to fetch the joke data.
+```
