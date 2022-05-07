@@ -87,12 +87,25 @@ Use a .txt file for each song lyrics and make AJAX request to that file, on each
 - by XMLHttpRequest object
 - by Fetch APIs
 ```
+
 # Theme: WebServices and JSON
-## WebServicesAndJSON stask folder
+## WebServicesAndJSON task folder
 
 - Solution of the task "Simple Jokes App"
 ```
 Description:
 Create a page which shows random jokes on each button click, as shown in gif bellow.
 Use the http://api.icndb.com/jokes/random URL to fetch the joke data.
+```
+
+# Theme: Client-side Storages
+## clientSideStorages task folder
+
+- Solution of the Task1 (folder storeUserColorPreferences) - Store user color preferences
+
+```
+Description:
+You have to store the color selected by the user, so that next time when she enters the site, her chosen colour would be set as page background colour.
+ - Implement the task with cookies
+ - Implement the task with Local Storage (folder localStorage)
 ```
