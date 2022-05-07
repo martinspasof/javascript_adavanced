@@ -109,3 +109,12 @@ You have to store the color selected by the user, so that next time when she ent
  - Implement the task with cookies
  - Implement the task with Local Storage (folder localStorage)
 ```
+
+- Solution of the Task2 - TodoApp with client-side storage
+Link with the solution: https://github.com/martinspasof/todoapp
+
+```
+Description:
+- Implement your todoApp project with ability to save todos data on browser
+- The only requirement is the data to be accessible after the user close browser window
+```
