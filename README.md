@@ -118,3 +118,13 @@ Description:
 - Implement your todoApp project with ability to save todos data on browser
 - The only requirement is the data to be accessible after the user close browser window
 ```
+
+# Theme: TypeScript (The Basics and beyond)
+## typeScript task folder
+
+- Solution of the task from TypeScript
+
+```
+Description:
+- Created TodoApp use TypeScript
+```
